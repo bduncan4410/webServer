@@ -1,0 +1,73 @@
+body{
+    margin: 0; 
+    padding: 0;
+    border: 0;
+}
+.topbar{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    min-height: 6rem;
+    width: 100%;
+    position: relative;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 6rem;
+    
+}
+.topbar a{
+    
+    padding: 1%;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    
+    line-height: inherit; 
+    
+}
+.topbar a:hover{
+    
+    padding: 1%;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: teal;
+    
+    line-height: inherit; 
+    
+}
+.mainPage{
+    
+    background-image: url(https://www.magicalley.co.uk/wp-content/uploads/2017/07/overlay.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    min-height: 100rem;
+    position: absolute;
+}
+.ctr{
+    margin-top: 3rem; 
+    
+    border-style: solid;
+    background: rgba(210,255,82,1);
+    background: -moz-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(210,255,82,1)), color-stop(100%, rgba(145,232,66,1)));
+    background: -webkit-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    background: -o-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    background: -ms-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1 );
+}
+.row{
+    padding: 1rem;
+    text-align: justify;
+}
+.row h1{
+    margin: auto;
+}
+.row p{
+    height:50%; 
+    width: 100%; 
+    padding: 1rem
+}
